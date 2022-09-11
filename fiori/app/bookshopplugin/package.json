@@ -1,0 +1,11 @@
+{
+  "name": "org.klaps.bookshopplugin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ui5 serve -o flpSandbox.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": ""
+}

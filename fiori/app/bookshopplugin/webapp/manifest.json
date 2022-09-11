@@ -1,0 +1,65 @@
+{
+	"_version": "1.5.0",
+	"sap.app": {
+		"_version": "1.2.0",
+		"id": "org.klaps.bookshopplugin",
+		"type": "component",
+		"applicationVersion": {
+			"version": ""
+		},
+		
+		"title": "{{PLUGIN_TITLE}}",
+		"crossNavigation": {
+			"inbounds": {
+			  "intent1": {
+				"signature": {
+					"parameters": {},
+					"additionalParameters": "allowed"
+				},
+				"semanticObject": "Shell",
+				"action": "plugin"
+			  }
+			}
+		  }
+	},
+	"sap.ui": {
+		"_version": "1.3.0",
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": []
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"contentDensities": {
+			"compact": true,
+			"cozy": false
+		},
+		"dependencies": {
+			"minUI5Version": "1.38.1",
+			"libs": {
+				"sap.ui.core": {
+					"minVersion": "1.38.1"
+				},
+				"sap.m": {
+					"minVersion": "1.38.1"
+				}
+			}
+		},
+		"models": {
+			
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "i18n/i18n.properties"
+			}
+		},
+		"componentName": "org.klaps.bookshopplugin"
+	},
+	"sap.flp": {
+		"type": "plugin",
+		"config": {}
+	}
+}
