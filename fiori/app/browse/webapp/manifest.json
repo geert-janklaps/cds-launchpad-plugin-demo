@@ -40,7 +40,6 @@
           "semanticObject": "Books",
           "action": "display",
           "title": "{{appTitle}}",
-          "info": "{{appInfo}}",
           "subTitle": "{{appSubTitle}}",
           "icon": "sap-icon://course-book",
           "indicatorDataSource": {

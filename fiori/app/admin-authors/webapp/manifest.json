@@ -37,7 +37,6 @@
           "semanticObject": "Authors",
           "action": "display",
           "title": "{{appTitle}}",
-          "info": "{{appInfo}}",
           "subTitle": "{{appSubTitle}}",
           "icon": "sap-icon://SAP-icons-TNT/user",
           "indicatorDataSource": {

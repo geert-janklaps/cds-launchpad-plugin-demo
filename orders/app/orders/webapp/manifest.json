@@ -19,7 +19,23 @@
             "id": "ui5template.basicSAPUI5ApplicationProject",
 			"-id": "ui5template.smartTemplate",
 			"-version": "1.40.12"
-		}
+		},
+        "crossNavigation": {
+            "inbounds": {
+                "intent1": {
+                        "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "Orders",
+                    "action": "manage",
+                    "title": "{{appTitle}}",
+                    "info": "{{appInfo}}",
+                    "subTitle": "{{appSubTitle}}",
+                    "icon": "sap-icon://sales-order"
+                }
+            }
+        }
 	},
 	"sap.ui5": {
         "dependencies": {
