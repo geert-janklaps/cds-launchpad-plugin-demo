@@ -54,7 +54,6 @@
     "app/admin-authors",
     "app/admin-books",
     "app/browse",
-    "app/genres",
-    "../orders/app/orders"
+    "app/genres"
   ]
 }

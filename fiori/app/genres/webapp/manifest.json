@@ -18,6 +18,14 @@
           "title": "{{appTitle}}",
           "semanticObject": "GenreHierarchy",
           "action": "display",
+          "signature": {
+            "parameters": {
+              "Genre.ID": {
+                "renameTo": "ID"
+              }
+            },
+            "additionalParameters": "ignored"
+          },
           "deviceTypes": {
             "desktop": true,
             "tablet": true,

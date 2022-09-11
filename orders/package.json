@@ -4,5 +4,8 @@
   "dependencies": {
     "@capire/common": "*",
     "@sap/cds": ">=5"
-  }
+  },
+  "sapux": [
+    "app/orders"
+  ]
 }
