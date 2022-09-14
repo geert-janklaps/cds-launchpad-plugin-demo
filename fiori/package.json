@@ -55,6 +55,6 @@
     "app/admin-books",
     "app/browse",
     "app/genres",
-    "app/bookshopplugin"
+    "app/snowflakes"
   ]
 }
