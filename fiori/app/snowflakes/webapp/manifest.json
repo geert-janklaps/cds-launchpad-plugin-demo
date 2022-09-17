@@ -22,6 +22,10 @@
 			}
 		}
 	},
+	"sap.flp": {
+		"type": "plugin",
+		"config": {}
+	},
 	"sap.ui": {
 		"technology": "UI5",
 		"icons": {
@@ -76,9 +80,5 @@
 	"sap.platform.hcp": {
 		"uri": "webapp",
 		"_version": "1.1.0"
-	},
-	"sap.flp": {
-		"type": "plugin",
-		"config": {}
 	}
 }
