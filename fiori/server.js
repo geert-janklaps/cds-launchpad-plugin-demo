@@ -12,7 +12,7 @@ if (process.env.NODE_ENV !== 'production') {
     // Enable launchpad plugin
     cds.once('bootstrap',(app)=>{
         const handler = new cds_launchpad_plugin();
-        app.use(handler.setup({theme:'sap_horizon', version: '1.105.1'}));
+        app.use(handler.setup({theme:'sap_horizon', version: '1.105.1', appConfigPath: 'app/appconfig.json'}));
     });
 }
 
