@@ -1,4 +1,3 @@
-test
 # cds-launchpad-plugin demo repository
 
 ## Branches
